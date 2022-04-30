@@ -40,7 +40,7 @@ if choice == 'reveal':
     
     #name of the excel and the output excel
     inputfile = args.input
-    fileput = args.output
+    outputfile = args.output
 
     #extracting excel objects
     with ZipFile(inputfile , 'r') as zip_ref:
