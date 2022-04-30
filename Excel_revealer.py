@@ -67,10 +67,10 @@ if choice == 'reveal':
     os.rename(outfile, infile)
 
     #Making the excel output file
-    shutil.make_archive(outputfile, 'zip', "/test/")
+    shutil.make_archive(outputfile, 'zip', "test/")
     pre, ext = os.path.splitext('/result.zip')
     os.rename(outputfile+'.zip', outputfile + ".xlsx")
-    shutil.rmtree("/test")
+    shutil.rmtree("test")
 
 
 
