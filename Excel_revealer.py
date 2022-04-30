@@ -47,8 +47,8 @@ if choice == 'reveal':
         zip_ref.extractall("test")
 
     #files focused on in editing    
-    infile = "/test/xl/workbook.xml"
-    outfile = "/test/xl/test.xml"
+    infile = "test/xl/workbook.xml"
+    outfile = "test/xl/test.xml"
 
     #Editing the xml files
     delete_list = ["veryHidden", "Hidden"]
