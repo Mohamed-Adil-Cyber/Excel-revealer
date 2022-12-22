@@ -26,7 +26,7 @@ parser.add_argument('-o', '--output', type=str, required=True,
 
 #argument for choosing which option
 parser.add_argument('-c','--choice', dest='format', choices=['reveal', 'unprotect'], required=True, 
-                    help="shows datetime in given format")
+                    help="shows hidden excel sheets")
 
 #parsing all arguments
 args = parser.parse_args()
